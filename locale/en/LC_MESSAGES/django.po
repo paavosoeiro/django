@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-20 00:13-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\apps\templates\base.html.py:7 .\apps\templates\base.html.py:28
+msgid "Meu Blog"
+msgstr "My Blog"
+
+#: .\apps\templates\idiomas.html.py:14
+msgid "Mudar Idioma"
+msgstr "Change language"
+
+#: .\apps\templates\admin\base_site.html.py:4
+msgid "Django site admin"
+msgstr ""
+
+#: .\apps\templates\admin\base_site.html.py:7
+msgid "Django administration"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:9
+msgid "Editar"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:11
+#: .\apps\templates\contas\conta.html.py:29
+msgid "Valor"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:12
+msgid "Vencimento"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:13
+msgid "Pessoa"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:14
+msgid "Histórico"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:15
+msgid "Status"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:17
+msgid "Pagamento"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:24
+msgid "Pagamentos"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:28
+msgid "Data"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:42
+msgid "Novo pagamento"
+msgstr ""
+
+#: .\apps\templates\contas\conta.html.py:50
+msgid "Salvar pagamento"
+msgstr ""
+
+#: .\apps\templates\contas\contas.html.py:5
+#: .\apps\templates\contas\contas.html.py:6
+msgid "Contas Pessoais"
+msgstr ""
+
+#: .\apps\templates\contas\contas.html.py:10
+msgid "Contas a Pagar"
+msgstr ""
+
+#: .\apps\templates\contas\contas.html.py:18
+#: .\apps\templates\contas\contas.html.py:27
+msgid "Ver todas"
+msgstr ""
+
+#: .\apps\templates\contas\contas.html.py:19
+#: .\apps\templates\contas\contas.html.py:28
+msgid "Criar nova"
+msgstr ""
+
+#: .\apps\templates\contas\contas.html.py:20
+msgid "Contas a Receber"
+msgstr ""
+
+#: .\blog\views.py:8
+msgid "Nome"
+msgstr "Name"
+
+#: .\blog\views.py:9
+msgid "E-mail"
+msgstr ""
+
+#: .\blog\views.py:10
+msgid "Mensagem"
+msgstr ""
+
+#: .\contas\models.py:70
+msgid "Debito"
+msgstr ""
+
+#: .\contas\models.py:71
+msgid "Credito"
+msgstr ""
+
+#: .\contas\models.py:77
+msgid "A Pagar"
+msgstr ""
+
+#: .\contas\models.py:78
+msgid "Pago"
+msgstr ""
+
+#: .\galeria\models.py:25
+msgid "Imagem"
+msgstr "Picture"
+
+#: .\galeria\models.py:26
+msgid "Imagens"
+msgstr "Pictures"

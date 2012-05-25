@@ -1,0 +1,15 @@
+﻿{% extends "base.html" %}
+
+{% block titulo %}Galeria de Imagens - {{ block.super }}{% endblock %}
+
+{% block h1 %}Galeria de imagens{% endblock %}
+
+{% block conteudo %}
+
+<ul>
+    {% for album in lista %}
+    <li><a href="{{ album.get_absolute_url }}">{{ album }}</a></li>
+    {% endfor %}
+</ul>
+
+{% endblock conteudo %}

@@ -1,0 +1,15 @@
+﻿{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block titulo %}{% trans "Todos os usuarios do sistema" %} - {{ block.super }}{% endblock %}
+{% block h1 %}{% trans "Todos os usuarios do sistema" %}{% endblock %}
+
+{% block conteudo %}{{ block.super }}
+
+<ul>
+ {% for usuario in usuarios %}
+ <li>{{ usuario }}</li>
+ {% endfor %}
+</ul>
+{% endblock conteudo %}

@@ -1,0 +1,13 @@
+﻿{% extends "base.html" %}
+{% block conteudo %}
+<img src="{{ MEDIA_URL }}foto.png"/>
+{% for artigo in latest %}
+	<div class="artigo">
+		<a href="{{ artigo.get_absolute_url }}"><h2>{{ artigo.titulo }}</h2></a>
+    <div class="conteudo">
+      Publicado há {{ artigo.publicacao|timesince }}<br/>
+      {{ artigo.conteudo }}
+    </div>
+  </div>
+{% endfor %}
+{% endblock %}

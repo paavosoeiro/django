@@ -1,0 +1,15 @@
+﻿{% extends "base.html" %}
+
+{% block titulo %}Tag "{{ tag.nome }}" - {{ block.super }}{% endblock %}
+
+{% block h1 %}Tag "{{ tag.nome }}"{% endblock %}
+
+{% block conteudo %}
+
+<ul>
+    {% for item in tag.tagitem_set.all %}
+    <li><a href="{{ item.objeto.get_absolute_url }}">{{ item.objeto }}</a></li>
+    {% endfor %}
+</ul>
+
+{% endblock conteudo %}

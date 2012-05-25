@@ -1,0 +1,21 @@
+﻿{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block titulo %}{% trans "Registro de usuario" %} - {{ block.super }}{% endblock %}
+{% block h1 %}{% trans "Registro de usuario" %}{% endblock %}
+
+{% block conteudo %}{{ block.super }}
+
+<form method="post">
+{% csrf_token %}
+ <table class="form">
+  {{ form }}
+
+  <tr>
+   <th>&nbsp;</th>
+   <td><input type="submit" value="{% trans "Registrar" %}"/></td>
+  </tr>
+ </table>
+</form>
+{% endblock conteudo %}

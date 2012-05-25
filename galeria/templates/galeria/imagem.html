@@ -1,0 +1,18 @@
+﻿{% extends "base.html" %}
+
+{% block titulo %}{{ imagem }} - {{ block.super }}{% endblock %}
+
+{% block h1 %}{{ imagem }}{% endblock %}
+
+{% block conteudo %}
+<div class="imagem">
+    <img src="{{ imagem.original.url }}"/>
+
+    {{ imagem.descricao|linebreaks }}
+	
+	{% with imagem as objeto %}
+	{% include "tags/tags_para_objeto.html" %}
+	{% endwith %}
+
+</div>
+{% endblock conteudo %}
